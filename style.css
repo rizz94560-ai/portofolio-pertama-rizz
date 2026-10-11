@@ -1,0 +1,133 @@
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: 0 solid black;
+    border-radius: 0 0 20px 20px;
+    background-color: #222222;
+    padding: 14px 18px 14px 10px;
+}
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: orangered;
+    margin-left: 2rem;
+    margin-right: 16rem;
+}
+.btn {
+    margin-right: 8px;
+    padding: 7px 12px;
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+    border: 2px solid #222222;
+    border-radius: 4px;
+    background-color: transparent;
+    transition: all 0.2s ease;
+}
+.btn:hover {
+    border: 2px solid orangered;
+    background-color: orangered;
+    border-color: orangered;
+    color: black;
+}
+.main {
+    color: white;
+    margin-top: 50px;
+}
+.Introduce {
+    color: orangered;
+    font-size: 25px;
+}
+.desc {
+    color: #6a6767;
+}
+.cardutama {
+    display: flex;
+    gap: 15px;
+}
+.card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    background-color: #222222;
+    border-radius: 4px;
+    width: fit-content;
+    height: none;
+    color: white;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    background-color: #222222;
+    border-radius: 4px;
+    width: fit-content;
+    height: none;
+    color: white;
+}
+.card3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: #222222;
+    color: white;
+    height: none;
+    border: 2px solid white;
+    border-radius: 4px;
+    width: fit-content;
+}
+.experience,
+.client,
+.project {
+    font-size: 20px;
+    border:none;
+    background-color: transparent;
+    color: orangered;
+}
+.project1,
+.year,
+.client1 {
+    border:none;
+    background-color: transparent;
+}
+.card1:hover,
+.card2:hover,
+.card3:hover {
+    border: 2px solid orangered;
+}
+.cardutama2 {
+    display: flex;
+    margin-top: 20px;
+}
+.Hire {
+    font-size: 14px;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Hire:hover {
+    background-color: orangered;
+    color: black;
+}
+.Cv {
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Cv:hover {
+    background-color: orangered;
+    color: black;
+}
+body {
+    background-color: black;
+}
